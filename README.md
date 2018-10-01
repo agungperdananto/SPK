@@ -1,4 +1,8 @@
 # SISTEM PENUNJANG KEPUTUSAN (SPK)
 Berikut ini repositori untuk MK sistem penunjang keputusan
-## Untuk Kelas 311, 310, 308, dan 309:
-Hari ini tanggal 26 dan 27 september 2018 saya tidak masuk dulu, kerjakan tugas di slide latihan 1.pptx yang ada di repositori. dikerjakan dengan menggunakan ms excel.
+## Untuk perkuliahan tanggal 2, 3, 4 Oktober 2018 (kelas 308, 309, 310, 311, 312,& 313):
+Bawa laptop masing-masing dan kabel roll listrik, harap sudah menginstall python 3, jupyter notebook dan numpy. 
+Bahasannya adalah: 
+- List, tuple dan array. 
+- Slicing
+
