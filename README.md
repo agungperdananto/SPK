@@ -1,8 +1,7 @@
 # SISTEM PENUNJANG KEPUTUSAN (SPK)
-Berikut ini repositori untuk MK sistem penunjang keputusan
-## Untuk perkuliahan tanggal 2, 3, 4 Oktober 2018 (kelas 308, 309, 310, 311, 312,& 313):
-Bawa laptop masing-masing dan kabel roll listrik, harap sudah menginstall python 3, jupyter notebook dan numpy. 
-Bahasannya adalah: 
-- List, tuple dan array. 
-- Slicing
+##Tugas UTS :
+1. Di dalam folder tugas_uts, terdapat materi mengenai topsis(berikut penjelasan dan contohnya)
+2. Buatlah penghitungannya dalam format excell dan program(python atau ipynb)
+3. Tugas dikumpulkan pada saat UTS. dikumpulkan per kelas ke dalam 1 folder untuk masing-masing kelas.(dikirimkan ke email dosen00287@unpam.ac.id)
+
 
