@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <h2 style = "text-align: center;">Contact Form</h2>
+		
+      {% for message in form.name.errors %}
+         <div>{{ message }}</div>
+      {% endfor %}
+      
+      {% for message in form.email.errors %}
+         <div>{{ message }}</div>
+      {% endfor %}
+
+      
+      
+      <form action = "http://127.0.0.1:5000/contact" method = post>
+         <fieldset>
+            <legend>Contact Form</legend>
+            {{ form.hidden_tag() }}
+            
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               {{ form.name.label }}<br>
+               {{ form.name }}
+               <br>
+               
+               {{ form.Gender.label }} 
+               {{ form.Gender }}
+               {{ form.Address.label }}<br>
+               {{ form.Address }}
+               <br>
+               
+               {{ form.email.label }}<br>
+               {{ form.email }}
+               <br>
+               
+               {{ form.Age.label }}<br>
+               {{ form.Age }}
+               <br>
+               
+               {{ form.language.label }}<br>
+               {{ form.language }}
+               <br>
+               {{ form.submit }}
+            </div>
+            
+         </fieldset>
+      </form>
+      <div >
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div style="text-align: center"><strong>{{ message }}</strong></div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {# application content needs to be provided in the app_content block #}
+        {% block app_content %}{% endblock %}
+    </div>
+      
+   </body>
+</html>

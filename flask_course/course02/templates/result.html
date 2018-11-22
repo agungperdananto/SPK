@@ -1,0 +1,18 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is a Result page{% endblock %}
+
+
+{% block content %}
+      
+      <table class="table table-striped">
+         {% for key, value in result.items() %}
+
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+
+         {% endfor %}
+      </table>
+
+{% endblock %}
