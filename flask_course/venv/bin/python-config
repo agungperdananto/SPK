@@ -1,4 +1,4 @@
-#!/Users/agungperdananto/Documents/flask_course/venv/bin/python
+#!/Users/agungperdananto/Documents/SPK/flask_course/venv/bin/python
 
 import sys
 import getopt

@@ -1,0 +1,14 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+
+{% block content %}
+  <div class="container" >
+    <h1>Table Data</h1>
+    <div class="row">
+        <div class="col-md-9">
+            {{data_frame | safe}}
+        </div>
+    </div>
+  </div>
+{% endblock %}
