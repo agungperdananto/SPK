@@ -13,6 +13,8 @@ Setelah virtual envronment active, install component yang sudah ada pada require
 	
 	> pip install -r requirements.txt
 
+Buat database di komputer masing-masing.
+
 Buka file web.py lalu rubah baris:
 	
 	app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:root@localhost:8889/dataspk'
