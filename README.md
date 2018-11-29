@@ -1,9 +1,9 @@
 # SISTEM PENUNJANG KEPUTUSAN (SPK)
 ### Menjalankan aplikasi web flask
-    Di dalam folder/directory buat virtual environment terlebih dahulu
+Di dalam folder/directory buat virtual environment terlebih dahulu:
 
-    $ virtualenv venv
+    > virtualenv venv
 
-    Jalankan virtualenv tersebut
-    $ cd /venv/Scripts
-    $ activate
+Jalankan virtualenv tersebut:
+    > cd /venv/Scripts
+    > activate
