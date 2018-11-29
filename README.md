@@ -5,5 +5,6 @@ Di dalam folder/directory buat virtual environment terlebih dahulu:
     > virtualenv venv
 
 Jalankan virtualenv tersebut:
-    > cd /venv/Scripts
+
+	> cd /venv/Scripts
     > activate
