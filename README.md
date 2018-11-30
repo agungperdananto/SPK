@@ -46,15 +46,15 @@ Setelah itu jalankan aplikasi webnya:
 
 Lalu migrasi data dengan mengetikkan alamat berikut di browser:
 	
-	http://127.0.0.1/migrate
+	http://127.0.0.1:5000/migrate
 
 Untuk menginput data dapat menggunakan Link:
 
-	http://127.0.0.1/inputdata
+	http://127.0.0.1:5000/inputdata
 
 Untuk melihat keseluruhan data dalam bentuk tabel dapat menggunakan Link:
 
-	http://127.0.0.1/tabledata
+	http://127.0.0.1:5000/tabledata
 
 nantinya data akan menampilkan tabel dan menampilkan nilai rata-rata Tugas, UTS, UAS.
 
