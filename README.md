@@ -25,12 +25,12 @@ dan
 
 sesuai dengan setting database masing-masing.
 contoh:
-
-user: root
-password: password
-host: localhost
-port: 3306
-nama DB: data01
+<br/><br/>
+user: root <br/>
+password: password<br/>
+host: localhost<br/>
+port: 3306<br/>
+nama DB: data01<br/>
 
 Maka baris tersebut dirubah sbb:
 
