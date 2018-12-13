@@ -1,5 +1,8 @@
 # SISTEM PENUNJANG KEPUTUSAN (SPK)
 ### Menjalankan aplikasi web flask (course06_db_ex)
+Install python 3.xx 
+Install virtualenv dengan menggunakan pip:
+	> pip install virtualenv
 Di dalam folder/directory buat virtual environment terlebih dahulu:
 
     > virtualenv venv

@@ -32,8 +32,6 @@ def nilaiArray(df):
     return tugas_array, uts_array, uas_array
 
 
-
-
 # ===========Membuat Table di DB==============
 class siswa(db.Model):
    id = db.Column(db.Integer, primary_key = True)
