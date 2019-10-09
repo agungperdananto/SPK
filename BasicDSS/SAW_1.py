@@ -29,11 +29,11 @@ print(dataset)
 
 # create weight
 weight = [3,4,3,4,4]
-normalized_weight = []
+W = []
 for w in weight:
-    normalized_weight.append(round(w/sum(weight), 2))
-normalized_weight
-sum(normalized_weight)
+    W.append(round(w/sum(weight), 2))
+W
+sum(W)
 # define criteria
 benefit = [True, False, True, False, True]
 
@@ -57,12 +57,12 @@ results = []
 for i in range(x):
     result = 0
     for j in range(y):
-        result += normalized_matrix[i,j] * normalized_weight[j]
+        result += normalized_matrix[i,j] * W[j]
     results.append(round(result, 2))
 
 results
 
-
+test = 
 
 
 
