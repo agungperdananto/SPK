@@ -2,15 +2,15 @@
 
 ### Membuka File jupyter notebook (.ipynb)
 
-Buka Command Prompt
-    Ctrl + R
-    ketik cmd <enter>
+Buka Command Prompt </br>
+    Ctrl + R </br>
+    ketik cmd </br>
 
-Pindah ke working directory(Working space) dari command prompt
-Aktifkan environment (gunakan base)
-    >conda activate
-Jalankan server jupyter lab
-    >jupyter lab
+Pindah ke working directory(Working space) dari command prompt</br>
+Aktifkan environment (gunakan base)</br>
+   <code> >conda activate</code>
+Jalankan server jupyter lab</br>
+   <code> >jupyter lab</code>
 
 
 
