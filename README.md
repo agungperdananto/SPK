@@ -7,10 +7,10 @@ Buka Command Prompt </br>
     ketik cmd </br>
 
 Pindah ke working directory(Working space) dari command prompt</br>
-Aktifkan environment (gunakan base)</br>
-   <code> >conda activate</code>
+Aktifkan environment (Di dalam Command prompt)</br>
+   <code> conda activate</code></br>
 Jalankan server jupyter lab</br>
-   <code> >jupyter lab</code>
+   <code> jupyter lab</code>
 
 
 
